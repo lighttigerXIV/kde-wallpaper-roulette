@@ -1,0 +1,10 @@
+[package]
+name = "kde-wallpaper-roulette"
+description = "A cli tool to apply a random wallpaper in a folder in KDE. It applies the SAME wallpaper on all monitors"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.29", features = ["derive"] }
+daemonize = "0.5.0"
+rand = "0.9.0"
